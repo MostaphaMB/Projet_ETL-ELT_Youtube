@@ -1,16 +1,16 @@
-# 🎥 Pipeline ETL YouTube : Ingestion & Transformation Analytique
+## 🎥 Pipeline ETL YouTube : Ingestion & Transformation Analytique
 
-## 📝 Présentation du Projet
+### 📝 Présentation du Projet
 Ce projet consiste à concevoir un pipeline **ETL** (Extract - Transform - Load) complet pour automatiser la collecte et l'analyse de données provenant de l'API **YouTube Data v3**. En tant que **Data Engineer**, l'objectif est de transformer des réponses API brutes (JSON) en un dataset structuré prêt pour une exploitation décisionnelle sous **Power BI**.
 
-## 🎯 Objectifs Pédagogiques
+### 🎯 Objectifs Pédagogiques
 * **Interrogation d'API** : Manipuler des requêtes HTTP et exploiter des réponses au format JSON.
 * **Gestion de Flux** : Maîtriser la pagination, les contraintes de quotas et le traitement par lots (*batching*).
 * **Sécurité** : Sécuriser les identifiants via des variables d'environnement (`.env`).
 * **Pipeline de Transformation** : Nettoyer et normaliser des données pour produire un dataset propre et structuré.
 * **Business Intelligence** : Exploiter les données dans Power BI pour analyser l'engagement (vues, likes, commentaires).
 
-## 🛠️ Stack Technique
+### 🛠️ Stack Technique
 * **Langage** : Python (Requests, Pandas, Json, Dotenv).
 * **Source de Données** : API YouTube Data v3.
 * **Visualisation** : Power BI Desktop.
@@ -18,7 +18,7 @@ Ce projet consiste à concevoir un pipeline **ETL** (Extract - Transform - Load)
 
 ---
 
-## 🏗️ Architecture du Pipeline
+### 🏗️ Architecture du Pipeline
 Le pipeline suit une logique de type ETL industrielle :
 1.  **Extraction** : YouTube API → Ingestion Python → Stockage brut (JSON).
 2.  **Transformation** : Nettoyage → Normalisation → Dataset structuré.
@@ -26,7 +26,7 @@ Le pipeline suit une logique de type ETL industrielle :
 
 ---
 
-## 🚀 Étapes de Réalisation
+### 🚀 Étapes de Réalisation
 
 ### 1. Configuration & Sécurité 🔐
 *   Installation de l'environnement virtuel et des dépendances nécessaires.
@@ -49,9 +49,8 @@ Le pipeline suit une logique de type ETL industrielle :
 
 ---
 
-## 📦 Livrables
+### 📦 Livrables
 1. **Code Python** : Script du pipeline ETL.
 2. **Dataset final** : Données propres et structurées.
 3. **Dashboard Power BI** : Rapport interactif et décisionnel.
-4. **Board Jira** : Suivi des tâches et gestion du projet.
 
