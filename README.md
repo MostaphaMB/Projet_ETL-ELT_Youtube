@@ -1,5 +1,6 @@
 ## 🎥 Pipeline ETL YouTube : Ingestion & Transformation Analytique
 
+
 ### 📝 Présentation du Projet
 Ce projet consiste à concevoir un pipeline **ETL** (Extract - Transform - Load) complet pour automatiser la collecte et l'analyse de données provenant de l'API **YouTube Data v3**. En tant que **Data Engineer**, l'objectif est de transformer des réponses API brutes (JSON) en un dataset structuré prêt pour une exploitation décisionnelle sous **Power BI**.
 
