@@ -1,4 +1,5 @@
 ## 🎥 Pipeline ETL YouTube : Ingestion & Transformation Analytique
+<img width="1203" height="677" alt="Tableau de bord Wandaloo" src="https://github.com/user-attachments/assets/26419d46-a7bd-40e2-a06d-9a76a426de6e" />
 
 
 ### 📝 Présentation du Projet
